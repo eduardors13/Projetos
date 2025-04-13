@@ -1,0 +1,35 @@
+[33mcommit a4b0215a08e6388b5d8b934708547be3427ad8e2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Eduardo Rodrigues <edusingulano@hotmail.com>
+Date:   Sun Apr 13 13:35:38 2025 -0300
+
+    first commit
+
+[33mcommit d03cfc50996887dc617dbb68a749a34fa552cc96[m
+Author: Eduardo Rodrigues <edusingulano@hotmail.com>
+Date:   Mon Mar 24 22:16:20 2025 -0300
+
+    add teste.txt
+
+[33mcommit 4acefda27b23dc2ed4a2ceef09987346945fdb37[m
+Author: Eduardo Rodrigues Singulano <edusingulano@hotmail.com>
+Date:   Mon Mar 24 22:13:43 2025 -0300
+
+    Create README.md
+
+[33mcommit 0aabd5e460a05630194201225b5c8b23de1cdf45[m
+Author: Eduardo Rodrigues Singulano <edusingulano@hotmail.com>
+Date:   Mon Mar 24 21:14:38 2025 -0300
+
+    Rename frases.txt.txt to frases.txt
+
+[33mcommit 5bf9f4a62e5a8b1028f84fdd7c12095a4878309b[m
+Author: Eduardo Rodrigues <edusingulano@hotmail.com>
+Date:   Mon Mar 24 21:09:47 2025 -0300
+
+    Initial commit
+
+[33mcommit cac7c0300568d7c6e4f788da5ec216c7584914ad[m
+Author: Eduardo Rodrigues <edusingulano@hotmail.com>
+Date:   Mon Mar 24 20:38:06 2025 -0300
+
+    initial commit

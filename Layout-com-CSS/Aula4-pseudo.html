@@ -1,0 +1,75 @@
+Pseudoclasses:
+hover -> interação do usuário 
+functional
+structural
+
+Ex:
+<style>
+  div{
+    width:40px;
+    height: 40px;
+    border: solid;
+    text-align: center;
+    line-height:250%;
+    margin-top: 4px;
+  }
+</style>
+
+<section>
+  <div>1</div>
+  <div class="nao">2</div>
+  <div>3</div>
+</section>
+
+No CSS:
+HOVER = Interação do usuário
+Quando passar o mouse em cima, algo acontece
+div: hover{
+  background-color: lightcoral;
+}
+Quando passar o mouse em cima, pinta o quadradinho
+
+NOT = nao tem
+div:not(.nao){
+  background-color: lightcoral
+}
+Passará a color os quadrados que NAO possuem a class nao
+
+HAS
+section:has(div:hover){
+  border: 2px solid red;
+}
+Se tiver hover em alguma div, a section receberá a borda
+
+ROOT
+Tag raiz
+
+nth-child(n)
+div:nth-child(2){
+  background-color: lightblue
+}
+Vai colorir o elemento filho de numero 2
+Pode ser div, span, etc
+
+PSEUDO-ELEMENTS:
+first-letter 
+div::first-letter{
+  font-size: 40px;
+}
+Vai pegar a primeira letra e aumentar
+Há varios outros estilos
+Tem q usar :: antes
+
+before/after 
+div::before{`
+  content: "";
+  height: 100%;
+  width: 2px;
+  background-color: red;
+  position: absolute;
+  top: 0
+  left:0 
+}
+Vai fazer uma linha vermelha do lado esquerdo da caixa
+
+PSEUDO-CLASSES E PSEUDO-ELEMENTS TEM VARIOS OUTROS TIPOS

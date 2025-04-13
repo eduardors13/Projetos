@@ -1,0 +1,54 @@
+Aula 1
+Layouts e evolucao
+Block:
+<div>texto1</div>
+<div>texto2</div>
+
+Inline:
+<span>texto1</span>
+<span>texto2</span>
+
+Tabelas - display:table 
+Elementos: table, tr, td 
+<table>
+  <tr>
+    <td>conteudo</td>
+    <td>conteudo</td>
+  </tr>
+  <tr>
+    <td>abaixo</td>
+    <td>ao lado</td>
+  </tr>
+</table>
+
+Tableless - sem tabela 
+<div style="float:left">conteudo</div>
+<div style="float:right">outro conteudo</div>
+
+Para voltar ao normal:
+<div style="clear:both">mais conteudo</div>
+
+NOVOS CONTEUDOS, + USADOS
+Flexbox e Grid
+Flexbox:
+<div class="container">
+  <span>1</span>
+  <div>2</div>
+  <span>3</span>
+  <span>4</span>
+</div>
+ E ai no CSS, usamos .container para acessar a class e aplicar o que queremos
+ Exemplo:
+ .container {
+    display: flex ;
+    justify-content: space-around;
+    flex-direction: column;
+ }
+
+ Grid:
+ o mesmo do flex, porem no css usamos:
+ Exemplo:
+ .container { 
+    display: grid;
+    grid-template-columns: 20px 20px; 
+ }

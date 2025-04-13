@@ -1,0 +1,54 @@
+Aula 2
+No CSS:
+div { 
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+.position {
+  background-color: red
+}
+
+Propriedades depois que usar o position:
+top, bottom
+left, right
+inset
+z-index 
+
+Tudo que não for STATIC, será considerado POSITION no CSS
+
+No HTML:
+<p>Nessa demonstração você irá controlar o posicionamento do elemento em vermelho:
+</p>
+
+<section>
+  <div></div>
+  <div class="position"></div>
+  <div></div>
+</section>
+
+<br><br>
+
+RELATIVE:
+offset: relativo a si mesmo
+normal flow: sentido normal
+stacking context: se usar o z-index: -1, ele vai pra tras, se usar z-index: auto, ele fica no msm nivel
+
+ABSOLUTE:
+fica em um determinado local da tela -> relativo ao containing block proximo ou inicial OBS: se nao tiver um containig block proximo ou inicial, o containing block será a pagina toda.
+não respeita o normal flow
+
+FIXED:
+fixo na tela - relativo ao initial containing block 
+nao respeita o normal flow, fica fixo mesmo dando rolagem na tela
+z-index: auto -> por cima das coisas z-index: -1 -> por tras das coisas
+
+STICKY:
+fixo e relativo ao elemento pai q tenha mecanismo de scroll: overflow
+caso nao tenha nenhum, o containing block será a pagina inicial
+
+INSET:
+aplica pra todos os lados de uma vez só
+
