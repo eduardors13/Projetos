@@ -42,7 +42,27 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 [Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
 
+Tela Inicial
 ![Tela inicial](https://github.com/user-attachments/assets/03bbd12e-1655-49bb-bff1-336dcb67b5a2)
+Página de Soluções
+![Página de Soluções](https://github.com/user-attachments/assets/4ffcce13-1629-4c8a-8231-9aa01e8fb6b6)
+Página Quem Somos
+![Página Quem Somos](https://github.com/user-attachments/assets/995be790-d073-4a11-8aab-bffc966bcc5e)
+Página Contato/Fale Conosco
+![Página Contato  Fale Conosco](https://github.com/user-attachments/assets/02928eb5-16be-42a3-a128-93e1b7ff3cb0)
+Página de Login
+![Página de Login Insira Senha](https://github.com/user-attachments/assets/41819f89-77d8-4828-8e3b-87088e0d14f4)
+Página de Cadastro
+![Página de Cadastro](https://github.com/user-attachments/assets/0c56c679-d385-466e-a920-c30c7d117f07)
+Página Inicial Logado
+![Página Inicial Logado e Não Verificado](https://github.com/user-attachments/assets/264740a8-b088-4d38-9b89-4178c2e45051)
+Página de Verificação de Documentos
+![Documento de Identificação Aceite](https://github.com/user-attachments/assets/ddeff21d-d18e-4bfe-8c22-49b6e7fac106)
+Página de Verificação de Vivacidade
+![Página Verificar Câmera](https://github.com/user-attachments/assets/d364944e-79bf-47b5-97ea-f0cf71755e87)
+
+
+
 
  
 > **Links Úteis**:
