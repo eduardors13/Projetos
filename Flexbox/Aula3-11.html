@@ -1,0 +1,37 @@
+Alinhamento de conteudo dentro do container
+justify-content: flex-start, flex-end, center, space-evenly, space-around, space-between
+
+Alinhamento dos itens no eixo cruzado (y)
+Align-items: por padrao, começa no stretch
+align-items: stretch, flex-start, flex-end, center, baseline
+
+Gap e Margin
+Gap: espaço entre elementos
+valores: relativo, fixo ou flexivel
+Margin:
+valores: auto
+margin-left, right, top, bottom... 
+
+Multi-line 
+Flex-wrap: tamanho do container, nova linha = novo container
+valores: wrap, wrap-reverse,
+align-content: flex-start, flex-end, center, space-around, space-between, space-evenly
+
+Sizing
+Flex-grow: crescimento automatico do item, distribuicao conforme espacos vazios
+O elemento pode crescer mais em relação aos outros elementos
+
+Flex-shrink: encolhimento automatico
+1 = ativa
+0 = desativa
+Pode ser tipo 0.5, pra encolher um pouco menos que os outros
+por padrão é 1, serve para manter os elementos dentro da caixa
+
+Flex-basis: tamanho do item em relacao ao eixo principal
+valores: auto, 0, relativa, fixa ou flexível
+
+Shorthand - pré definido pra Flex-basis, flex-grow e Flex-shrink
+Initial: 0, 1, Auto
+Auto: 1, 1, auto
+None: 0, 0, Auto
+Um valor: se for numerico = grow, se for unitario = basis
